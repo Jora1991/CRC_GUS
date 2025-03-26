@@ -9,7 +9,7 @@ Development of colorectal cancer (CRC) is accompanied by microbial and metabolic
 * [02.Loop_Classification](02.Loop_Classification/): Pipeline for loop classification.
 * [03.Taxonomic_Annotation](03.Taxonomic_Annotation/): Pipeline for construction of kraken database.
 * [04.DataAnalysis](04.DataAnalysis/): Resources and R scripts for data analysis.
-</br>Please refer to the README in the respective folder for details.
+</br></br>Please refer to the README in the respective folder for details.
 
 ## Citation
 For usage of the tool, please cite the associated manuscript.
