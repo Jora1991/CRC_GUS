@@ -3,26 +3,26 @@ Development of colorectal cancer (CRC) is accompanied by microbial and metabolic
 
 ## Contents in 00.rawdata
 This folder contains the raw files needed for analysis
-* [CNV](CNV/): Output from MIDAS2, used for copy number variation analysis.
-* [Cohorts](Cohorts/): The group information and GUS abundance profile of the AUS, FRA, GER cohorts.
-* [KOinfo](KOinfo/): The KEGG-Orthology (KO) information.
-* [Liter](Liter/): Manual categorization of species, KOs, and metabolites.
-* [mOTUs4](mOTUs4/): Species profile based on mOTUs4.
-* [supp](supp/): Supplementary files from the study cohort, including profiles of species, KOs, and metabolites, as well as the differences of these features.
-* [38gmGUS.tre](38gmGUS.tre): The netwick tree file of 38 significant gmGUSs.
-* [GUSabun_ABS.csv](GUSabun_ABS.csv): The absolute abundance profile of gmGUSs.
-* [GUSabun_TPM.csv](GUSabun_TPM.csv): The TPM abundance profile of gmGUSs.
-* [GUSsStat.csv](GUSsStat.csv): The loop category, taxonomic annotation of gmGUSs.
-* [GlcA.LCA.output.m8](GlcA.LCA.output.m8): List of GlcA-utilizing species, tabular format.
-* [group.csv](group.csv): Group information of the study cohort.
-* [referenceStat.csv](referenceStat.csv): The loop category and taxonomic information of 114 references.
-* [signGUSs.RDS](signGUSs.RDS): A RDS file for the 38 signficant gmGUSs.
+* [CNV](00.rawdata/CNV/): Output from MIDAS2, used for copy number variation analysis.
+* [Cohorts](00.rawdata/Cohorts/): The group information and GUS abundance profile of the AUS, FRA, GER cohorts.
+* [KOinfo](00.rawdata/KOinfo/): The KEGG-Orthology (KO) information.
+* [Liter](00.rawdata/Liter/): Manual categorization of species, KOs, and metabolites.
+* [mOTUs4](00.rawdata/mOTUs4/): Species profile based on mOTUs4.
+* [supp](00.rawdata/supp/): Supplementary files from the study cohort, including profiles of species, KOs, and metabolites, as well as the differences of these features.
+* [38gmGUS.tre](00.rawdata/38gmGUS.tre): The netwick tree file of 38 significant gmGUSs.
+* [GUSabun_ABS.csv](00.rawdata/GUSabun_ABS.csv): The absolute abundance profile of gmGUSs.
+* [GUSabun_TPM.csv](00.rawdata/GUSabun_TPM.csv): The TPM abundance profile of gmGUSs.
+* [GUSsStat.csv](00.rawdata/GUSsStat.csv): The loop category, taxonomic annotation of gmGUSs.
+* [GlcA.LCA.output.m8](00.rawdata/GlcA.LCA.output.m8): List of GlcA-utilizing species, tabular format.
+* [group.csv](00.rawdata/group.csv): Group information of the study cohort.
+* [referenceStat.csv](00.rawdata/referenceStat.csv): The loop category and taxonomic information of 114 references.
+* [signGUSs.RDS](00.rawdata/signGUSs.RDS): A RDS file for the 38 signficant gmGUSs.
 
 
 ## System Requirements
 The R scripts requires only a standard computer with enough RAM to support the in-memory operations.
 The scripts have been tested on macOS system, but Linux is theoretically feasible as well.
-* [R](https://cran.r-project.org)
+* [R](00.rawdata/https://cran.r-project.org)
 
 ## Installation
 No additional installation is required. Simply download the scripts and resources for use.
